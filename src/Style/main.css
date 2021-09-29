@@ -17,6 +17,12 @@ h4{
     font-size: 2rem;
     margin: auto;
 }
+.div-container{
+    margin:auto;
+}
+.div-timer{
+    margin-top: 3rem;
+}
 
 .container{
     display:flex;
@@ -27,6 +33,25 @@ h4{
 
 .container-lenght{
     display:flex;
+}
+.autor{
+    display:flex;
+    font-size: 2rem;
+    font-style: italic;
+    background-color:rgba(255, 166, 0, 0.74);
+    margin-top:4rem;
+    height:80px;
+    
+}
+.fab{
+    margin: auto;
+    text-align: center;
+    color:black;
+
+}
+.autor-d{
+    text-align:center;
+    margin: auto;
 }
 .timer-container{
     border: 2px solid black;

@@ -16,7 +16,7 @@ function SessionLength(props) {
         props.decreaseSession();
     }
   return (
-    <section>
+    <section className="div-container">
       <h4>Session Length</h4>
       <section className="container">
         <button disabled ={props.isPlay === true ? "desable" : ""}

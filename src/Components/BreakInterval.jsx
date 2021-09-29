@@ -19,7 +19,7 @@ function BreakInterval(props) {
     }
 
   return (
-    <section>
+    <section className="div-container">
       <h4>Break Length</h4>
       <section className="container">
         <button disabled ={props.isPlay === true ? "desable" : ""}

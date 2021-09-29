@@ -116,7 +116,7 @@ class Timer extends React.Component {
 
     render() {
         return(
-            <section>
+            <section className="div-timer">
                 <div className="timer-container">
                     <h4>{this.state.isSession === true ? "Session" : "Break"}</h4>
                     <span className="timer">{this.props.timerMinute}</span>
@@ -127,6 +127,13 @@ class Timer extends React.Component {
                     <button onClick={this.play}>Play</button>
                     <button onClick={this.stop}>Stop</button>
                     <button onClick={this.reset}>Reset</button>
+                </div>
+
+                <div className="autor">
+                    <h3 className="autor-d">CREATE BY DAVID</h3>
+                    <a className="fab" href="https://github.com/DavidCardonaG"><i class="fab fa-github"></i></a>
+                    <a className="fab" href="mailto:davidcardonagarcia711@gmail.com"><i class="fas fa-envelope-open-text"></i></a>
+                    <a className="fab" href="https://api.whatsapp.com/send?phone=573104027113&text=Hola%2C%20me%20llamo%20David%20soy%20Desarrollador%20Front-End%20%C2%A1Gracias%20por%20Contactarme!%F0%9F%98%80%F0%9F%92%BB"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </section>
         )
